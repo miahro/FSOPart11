@@ -35,7 +35,7 @@ jobs:
         run: npm run test:front
 
       - name: Test back
-        run: npm run test --testTimeout=10000
+        run: npm run test
 
 
       # - name: Test
