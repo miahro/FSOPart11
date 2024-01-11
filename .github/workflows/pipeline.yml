@@ -31,14 +31,11 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Print
-        run: echo ${{MONGODB_URI}}
-
       # - name: Test front
       #   run: npm run test:front
 
-      # - name: Test back
-      #   run: npm run test
+      - name: Test back
+        run: npm run test
 
 
       # - name: Test
