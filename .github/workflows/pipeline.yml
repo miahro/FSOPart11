@@ -31,6 +31,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Test front
+        run: npm run test:front
+
+
+
       # - name: Test
       #   run: npm run test:both
 
