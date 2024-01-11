@@ -9,3 +9,6 @@ coverage
 
 cypress/videos
 cypress/screenshots
+FSOBloglistFront/cypress/screenshots
+FSOBloglistFront/cypress/videos
+/videos
