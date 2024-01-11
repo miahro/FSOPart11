@@ -1,0 +1,11 @@
+.env
+node_modules
+coverage
+/node_modules
+/coverage
+
+/build
+
+
+cypress/videos
+cypress/screenshots
