@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development nodemon index.js",
     "lint": "eslint .",
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
-    "start:test": "NODE_ENV=test node index.js",
+    "start:test": "NODE_ENV=test node index.js && cd FSOBloglistFront && npm start",
     "lint:front": "cd FSOBloglistFront && npm run lint",
     "lint:both": "npm run lint && npm run lint:front",
     "build": "cd FSOBloglistFront && npm run build",
